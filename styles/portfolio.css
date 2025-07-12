@@ -1,0 +1,70 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/*Shared styles  */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+/* sob button ar jonno same hobe assignment */
+.btn-primary{
+    background-color: #FD6E0A;/*#4E47FF*/
+    font-weight: bold;
+    font-size: 20px;
+    border: none;    /*signup btn a border nai*/
+    color: white;/*#FFFFFF*/
+    padding: 12px 36px;
+    border-radius: 5px;
+}
+/* .cmn-color{
+    color: #252432;
+} */
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto auto;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.banner-profilepic{
+    width: 403px;
+    height: 328px;
+}
